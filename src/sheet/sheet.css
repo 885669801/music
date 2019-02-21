@@ -1,0 +1,42 @@
+.exits{
+    background-color: rgb(235, 11, 11);
+    display: flex;
+    padding-left: 10px;
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+}
+.musicNames{
+    color: #fff;
+    margin-left: 26px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.column-wrapper{
+    margin-top: 60px;
+}
+.column-items{
+    width: 49%;
+    float:left;
+    padding: 1.85185vw 0.46296vw 0;
+    flex: 0 0 50%;
+}
+.column-title{
+    height: 9.25926vw;
+    margin: 1.85185vw 0.92593vw;
+    line-height: 4.62963vw;
+    color: #333;
+    font-size: 3.33333vw;
+    word-wrap: break-word;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}

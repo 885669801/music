@@ -1,0 +1,87 @@
+body,html{
+    height: 100%;
+}
+.msc{
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, .35) 0, rgba(0, 0, 0, .2) 80%, rgba(0, 0, 0, 0) 100%); */
+    background-color: rgba(44, 43, 43);
+    height: 100%;
+}
+.exit{
+    background-color: rgba(44, 43, 43);
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-bottom: 1px solid gray;
+}
+.musicName{
+    color: #fff;
+    margin-left: 10px;
+}
+.musicper{
+    color: gray;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.player-cd img{
+    margin-left:60px;
+    margin-top: 150px;
+}
+
+
+.key_music{
+    display: flex
+}
+
+.playlists{
+    margin-top: 110px;
+    margin-left: 40px;
+}
+
+.jindutiao{
+    color: #fff;
+    position: relative;
+}
+.beginTime{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+.allTime{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+.jdt_time{
+    width: 180px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 37px;
+    left:100px;
+    border-radius: 20px
+}
+.jdt_time2{
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left:0;
+    border-radius: 20px
+}
+.play_key{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-top: 90px;
+}
+.play_prev img{
+    width: 70px;
+    height: 70px;
+    margin-top: 95px;
+}
+.play_next img{
+    width: 70px;
+    height: 70px;
+    margin-top: 95px;
+}

@@ -1,0 +1,103 @@
+body,html{
+    height: auto!important;
+}
+
+.song-item{
+    border-top: 1px solid #e2c9c9;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    position: relative;
+    
+}
+.song-num{
+    float: left;
+    font-size: 1.5em;
+    line-height: 3em;
+    padding: 0em 1em 0 1em;
+    color: #666
+}
+.song-info{
+    float: left;
+    width: 16em;
+}
+.song-info>h2{
+    font-weight:400;
+    padding:10px;
+    margin:0px; 
+    font-size:16px;
+}
+.song-info p{
+    width: 15em;
+    white-space: nowrap;
+    /* overflow: hidden; */
+    color: rgb(110, 110, 194)
+}
+.play{
+    background: url(./play.png) no-repeat;
+    background-size: 2em 2em;
+    width: 3em;
+    height: 3em;
+    float: left;
+    /* margin-top: 1em; */
+    position: absolute;
+    right: 1em;
+    top: 1em;
+
+}
+.back{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 999;
+    padding-top: 5px;
+    background-color: rgb(255, 11, 11);
+    height: 55px;
+}
+.playlist-header-wrapper{
+    margin-top: 60px;
+}
+header{
+    /* overflow: hidden; */
+}
+.playlist-header-hd{
+    width: 10em;
+    height: 10em;
+    float: left;
+    padding: 0 0.1em 2em 1.5em;
+}
+.playlist-header-hd img{
+    width: 8em;
+    height: 8em;
+    margin-top: 2em;
+}
+.playlist-header-bd h1{
+    padding-top: 1px;
+    font-size: 1.5em;
+    line-height: 1.3;
+    color: #fefefe;
+    height: 4em;
+    font-weight: 500;
+    padding-top: 1em;
+}
+.playlist-header-wrapper{
+    height: 15em;
+}
+
+
+.title{
+    background: url(./back.png) no-repeat;
+    background-size: 1.5em 1.5em;
+    width: 1.5em;
+    height: 1.5em;
+    float: left;
+    margin: 1em 0.2em 0 0.8em
+}
+.dis{
+    color: #e2e2e3;
+    font-size: 1.2em;
+    line-height: 3em;
+    text-indent: 1em;
+    padding-left: 0.5em
+}

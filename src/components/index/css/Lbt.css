@@ -1,0 +1,32 @@
+.index1{
+    background-color: red;
+  }
+
+.list ul{
+    margin-top: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(173, 170, 170,0.5);
+    padding-bottom: 20px;
+}
+.list ul li{
+    list-style: none;
+   font-size: 12px;
+   color: #000
+}
+.list ul li img{
+    display: block;
+   width: 30px;
+   height: 30px;
+   margin: 0 auto;
+}
+.li_img{
+    border-radius: 50%;
+    background-color: red;
+    width: 50px;
+   height: 40px;
+   line-height: 40px;
+   padding-top: 10px;
+   margin-bottom: 5px;
+}
